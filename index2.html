@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvedor</title>
+    <style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-info h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
+
+.contact-form {
+    text-align: left;
+}
+
+.contact-form h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .avatar {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .contact-info, .contact-form {
+        text-align: center;
+    }
+
+    .contact-info p, .contact-form label {
+        text-align: left;
+    }
+
+    .social-links a {
+        margin: 0 5px;
+    }
+} 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="avatar">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3e935a3b-79c7-401d-90e7-7081b74df72e/dfbvlud-ad6ea6de-c9a3-4477-b193-349dc49604af.png/v1/fit/w_750,h_912,q_70,strp/teacher_from_the_girl_from_the_other_side_by_muffinssslover_dfbvlud-375w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzNlOTM1YTNiLTc5YzctNDAxZC05MGU3LTcwODFiNzRkZjcyZVwvZGZidmx1ZC1hZDZlYTZkZS1jOWEzLTQ0NzctYjE5My0zNDlkYzQ5NjA0YWYucG5nIiwid2lkdGgiOiI8PTEwNTMifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.PUnQd63r2PfHHFkRA65u7H-ze-QWgcIS_hGVBqEeLEY" alt="Avatar">
+            </div>
+            <h1>Entre em Contato</h1>
+        </div>
+
+        <div class="contact-info">
+            <h2>Informações para Desenvolvedor</h2>
+            <p>Nome do Desenvolvedor: Luan Moraes Guizzo</p>
+            <p>Email: <a href="mailto:guizzoluan@gmail.com">guizzoluan@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/joaosilva" target="_blank">LinkedIn</a>
+                <a href="https://x.com/GuizzoLuan?t=XNpaxIXuH8ZfteK_PE-eWQ&s=09" target="_blank">Twitter</a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Formulário de Contato</h2>
+            <form action="#" method="post" novalidate>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Enviar Mensagem">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
